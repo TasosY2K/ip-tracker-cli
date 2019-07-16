@@ -12,7 +12,6 @@ const fs = require('fs');
 const config = require('./config.js');
 
 eval(fs.readFileSync('./functions.js')+'');
-eval(fs.readFileSync('./dependencies.js')+'');
 
 const args = process.argv.slice(2);
 
