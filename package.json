@@ -1,0 +1,26 @@
+{
+  "name": "ip-tracker-cli",
+  "version": "1.0.0",
+  "description": "A robust cli for getting real-time location and other info about IP's",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ip",
+    "tracker",
+    "geolocate",
+    "cli"
+  ],
+  "author": "L34ND3V",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.3",
+    "inquirer": "^6.5.0",
+    "ipinfo": "^1.3.9",
+    "validate-ip-node": "^1.0.6",
+    "whois": "^2.10.1"
+  }
+}
