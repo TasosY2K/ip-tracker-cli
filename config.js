@@ -3,7 +3,7 @@ module.exports = {
     name: 'action',
     type: 'list',
     message: 'Choose an action',
-    choices: ['Grab IP', 'Geolocate', 'Whois'],
+    choices: ['Grab IP', 'Geolocate', 'Ping', 'Traceroute', 'Whois'],
   },
   get_ip:{
     name: 'ip_input',
